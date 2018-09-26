@@ -1,0 +1,21 @@
+###########################################################
+NÃO APAGAR E NEM MODIFICAR ESTE ARQUIVO
+###########################################################
+
+########################### Configurações de usuario
+git config --list
+git config --global user.name "Seu Nome"
+git config --global user.email "seuEmail@gmail"
+git config --global core.editor gedit
+
+ssh-keygen -t rsa -b 4096 -C "seuEmail@gmail.com"
+cd ~/.ssh
+cat id_rsa.pub
+Copiar e depois colocar no Key SSH do github
+
+########################### Comandos básicos git
+git clone
+git init
+git add
+git commit -am "Escrever aqui a mensagem"
+git push -u origin master
